@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg-2.gif) no-repeat;
+    background-size:cover;
+    
+}
+.box{
+    width: 1000px;
+    background: rgba(9, 66, 92, 0.651);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    height: 1000px;
+    margin-bottom: 5%;
+}
+.box-img{
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    
+}
+.box li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+.progress {
+    background: rgba(255,255,255,0.1);
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+    padding: 0 5px;
+    height: 40px;
+    width: 700px;
+  }
+  
+  .progress-value {
+    animation: javascript 3s normal forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(252, 237, 30);
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes javascript {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  .labdiv{
+    float: left;
+    display: inline-block;
+   position: relative;
+   margin-left: 6em; 
+  }
+.css {
+    animation: css 3s normal forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(31, 146, 240);
+    height: 30px;
+    width: 0;
+}
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+.html  {
+    animation: html 3s normal forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(211, 70, 51);
+    height: 30px;
+    width: 0;
+}
+
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+.git {
+        animation: git 3s normal forwards;
+        animation-iteration-count: infinite;
+        box-shadow: 0 10px 40px -10px #fff;
+        border-radius: 100px;
+        background: rgb(241, 118, 102);
+        height: 30px;
+        width: 0;
+    }
+    @keyframes git {
+        0% { width: 0; }
+        100% { width: 70%; }
+    }
+.photo{
+    animation: photoshop 3s normal forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(106, 59, 235);
+    height: 30px;
+    width: 0;
+    }
+    @keyframes photoshop {
+        0% { width: 0; }
+        100% { width: 90%; }
+    }
+
+    .final{
+    animation: final 3s normal forwards;
+    animation-iteration-count: infinite;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    height: 30px;
+    width: 0;
+    }
+    @keyframes final {
+        0% { width: 0; }
+        100% { width: 100%; }
+    }
