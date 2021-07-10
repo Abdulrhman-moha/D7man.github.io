@@ -56,6 +56,9 @@ ul{
 .box li a:hover{
     color: #b9b9b9;
 }
+.all {
+    width:70%;
+}
 #yt:hover{
     color: red;
 }
